@@ -31,15 +31,16 @@
 		}
 	
 		modal.setPosition = function() {
-			var modalHeight = this.window.outerHeight();
-			var modalWidth = this.window.outerWidth();
+			console.log(modal.window);
+			var modalHeight = modal.window.outerHeight();
+			var modalWidth = modal.window.outerWidth();
 			var viewportWidth = $(window).width();
 			var viewportHeight = $(window).height();
 			modal.overlay.height(viewportHeight);
 			modal.window.animate({
 				'top' : (viewportHeight - modalHeight) / 2,
 				'left' : (viewportWidth - modalWidth) / 2
-			},200);
+			},50);
 		}
 		
 		modal.Show = function()  {
