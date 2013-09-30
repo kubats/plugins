@@ -1,0 +1,23 @@
+@import url(base.css);
+
+body { position:relative; }
+
+#overlay {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+	background: #000;
+	opacity: .7;
+	display: none
+}
+
+#kdubModal {
+	width:360px;
+	position: absolute;
+	z-index: 30;
+	display: none;
+	padding:20px;
+	background:#fff;
+}
+

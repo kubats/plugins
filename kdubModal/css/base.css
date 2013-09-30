@@ -1,0 +1,29 @@
+* { margin:0; padding:0; font-family:Arial; }
+
+header, nav, section, article, aside, hgroup { display:block; }
+
+p { line-height:18px; margin-bottom:15px; font-size:13px; }
+
+#container { width:800px; margin:0 auto; border:1px solid #cccccc; padding:25px; }
+
+header { height:70px; }
+
+hgroup { float:right; }
+hgroup div { display:inline; margin-right:10px; }
+hgroup .input input{ height: 25px; width:200px; font-size:14px; }
+
+nav ul { list-style:none; background:#ccc; overflow:hidden; }
+nav ul li { float:left; width:150px; text-align:center; }
+nav ul li a { display:block; height:40px; line-height:40px; }
+
+section#maincontent { margin-top:20px; overflow:hidden; }
+
+section#content { width:550px; margin-right:40px; float:left; }
+section#content h1 { font-size:22px; }
+
+aside { width:200px; float:left; }
+aside article { border:1px solid #cccccc; margin-bottom:10px; }
+aside article p { font-size:11px; line-height:16px; padding:6px;}
+aside article h2 { font-size:14px; background:#cccccc; padding:3px 0 3px 3px; margin-bottom:5px; color:#666; }
+
+footer { font-size:11px; background-color:#ccc; padding:10px;	}
