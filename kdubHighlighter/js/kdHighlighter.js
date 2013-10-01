@@ -1,7 +1,9 @@
 (function($) {
 
 $.fn.kdHighlighter = function(options) {
-
+	
+	// Set plugin defaults
+	
 	var defaults = {
 		color: 'yellow',
 		method : 'click'
