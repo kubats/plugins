@@ -50,7 +50,7 @@
 		</aside>
 	</section>
 	<footer>
-		This is a footer area with copyright information and privacy policy stuff.
+		&copy; <span id="copyright"></span> this is a footer area with copyright information and privacy policy 
 	</footer>
 </div>
 
@@ -65,6 +65,11 @@
 	$('a').click(function() {
 		return false;
 	});
+	
+	
+	var 	d = new Date(), year = d.getFullYear();
+	
+	$('span#copyright').text(year);
 	
 </script>
 
